@@ -1,0 +1,80 @@
+/* header */
+body {
+  width: 100%;
+  font-family: Noto Sans KR, HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+  background-color: #fcfcff;
+}
+#wrap {
+  width: 1408px;
+  margin: 0 auto;
+}
+#header {
+  height: 560px;
+  background: url(../images/header_bg.png) no-repeat center top #fcfcff;
+}
+#header .header_area {
+  width: 500px;
+  height: 403px;
+  text-align: center;
+  margin-left: 100px;
+}
+#header .header_area h1 {
+  margin: 90px 0 0;
+}
+#header .header_area h1 img {
+  width: 160px;
+  height: 50px;
+}
+#header .header_area h2 {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#header .header_area h2 #text {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+#header .header_area h2 #text span {
+  color: #8f47ec;
+}
+#header .header_area .btn a {
+  display: inline-block;
+  width: 222px;
+  height: 56px;
+  border: 0;
+  background: #8f47ec;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  transition: 0.8s;
+  line-height: 56px;
+  margin: 50px 0 0;
+}
+#header .header_area .btn a:hover {
+  opacity: 0.8;
+}
+#section1 {
+  width: 4276px;
+  height: 247px;
+  background-color: #fff;
+}
+#section2 {
+  height: 752px;
+}
+#section3 {
+  height: 408px;
+}
+#section4 {
+  height: 383px;
+}
+#footer {
+  height: 246px;
+}
